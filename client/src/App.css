@@ -1,0 +1,63 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.App form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.decks {
+  display: grid;
+  width: 600px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.decks li {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: solid 1px white;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.decks li button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #eee;
+  color: black;
+  font-size: 10px;
+}
+
+
+.decks li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#submit-btn {
+  border: 1px solid white;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+
+#submit-btn:hover {
+  background-color: #eee;
+}
+
+
