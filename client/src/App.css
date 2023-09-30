@@ -11,6 +11,14 @@
   justify-content: center;
 }
 
+.App h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 3rem;
+  font-weight: 500;
+
+}
+
 .decks {
   display: grid;
   width: 600px;
